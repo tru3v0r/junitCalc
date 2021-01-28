@@ -11,7 +11,7 @@ public class CalculatorTest {
     public void addSuccess(){
         int a = 5;
         int b = 12;
-        Assertions.assertTrue((a+b)==17, "Le résultat du calcul est incorrect. " + a + " * " + b + " n'est pas égal à 17");
+        Assertions.assertTrue((a+b)==17, "Le résultat du calcul est incorrect. " + a + " + " + b + " n'est pas égal à 17");
     }
 
     @Test
@@ -19,7 +19,7 @@ public class CalculatorTest {
     public void addDNSuccess(){
         int a = 5;
         int b = 12;
-        Assertions.assertTrue((a+b)==17, "Le résultat du calcul est incorrect. " + a + " * " + b + " n'est pas égal à 17");
+        Assertions.assertTrue((a+b)==17, "Le résultat du calcul est incorrect. " + a + " + " + b + " n'est pas égal à 17");
     }
 
     @Test
