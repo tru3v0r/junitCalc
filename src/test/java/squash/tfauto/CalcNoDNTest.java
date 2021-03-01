@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 public class CalcNoDNTest {
 
     @Test
-    @DisplayName("Substraction")
     public void subDNFailure(){
         int a = 5;
         int b = 10;

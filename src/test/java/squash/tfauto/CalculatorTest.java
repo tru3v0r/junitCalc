@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("Calculator")
 public class CalculatorTest {
 
     @Test
@@ -15,7 +14,6 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Addition")
     public void addDNSuccess(){
         int a = 5;
         int b = 12;
@@ -30,7 +28,6 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Addition")
     public void multDNFailure(){
         int first = 2;
         int second = 4;
