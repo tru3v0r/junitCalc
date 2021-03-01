@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 public class CalculatorTest {
 
     @Test
+    @DisplayName("Add")
     public void addSuccess(){
         int a = 5;
         int b = 12;
@@ -15,7 +16,7 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Addition")
+    @DisplayName("AddDN")
     public void addDNSuccess(){
         int a = 5;
         int b = 12;
@@ -23,6 +24,7 @@ public class CalculatorTest {
     }
 
     @Test
+    @DisplayName("Mult")
     public void multFailure(){
         int first = 2;
         int second = 4;
@@ -30,7 +32,7 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Mult")
+    @DisplayName("MultDN")
     public void multDNFailure(){
         int first = 2;
         int second = 4;

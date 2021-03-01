@@ -4,10 +4,11 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+@DisplayName("AnotherCalculator")
 public class CalcNoDNTest {
 
     @Test
-    @DisplayName("Substraction")
+    @DisplayName("SubDN")
     public void subDNFailure(){
         int a = 5;
         int b = 10;
@@ -15,6 +16,7 @@ public class CalcNoDNTest {
     }
 
     @Test
+    @DisplayName("Substraction")
     public void subFailure(){
         int a = 5;
         int b = 10;
