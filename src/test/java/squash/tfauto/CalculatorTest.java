@@ -30,7 +30,7 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Addition")
+    @DisplayName("Mult")
     public void multDNFailure(){
         int first = 2;
         int second = 4;
