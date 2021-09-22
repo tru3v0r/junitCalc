@@ -15,7 +15,7 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Addition")
+    @DisplayName("Add ition")
     public void addDNSuccess(){
         int a = 5;
         int b = 12;
