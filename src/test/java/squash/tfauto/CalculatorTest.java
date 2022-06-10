@@ -29,12 +29,4 @@ public class CalculatorTest {
         Assertions.assertTrue((first*second)==6, "Le résultat du calcul est incorrect. " + first + " * " + second + " n'est pas égal à 6");
     }
 
-    @Test
-    @DisplayName("Mult")
-    public void multDNFailure(){
-        int first = 2;
-        int second = 4;
-        Assertions.assertTrue((first*second)==6, "Le résultat du calcul est incorrect. " + first + " * " + second + " n'est pas égal à 6");
-    }
-
 }
