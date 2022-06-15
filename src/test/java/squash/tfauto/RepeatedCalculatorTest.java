@@ -2,7 +2,7 @@ package squash.tfauto;
 
 import org.junit.jupiter.api.*;
 
-@DisplayName("Repeated Calculator ")
+@DisplayName("Repeated Calculator Test")
 public class RepeatedCalculatorTest {
 
     @RepeatedTest(value = 3, name = RepeatedTest.LONG_DISPLAY_NAME)
