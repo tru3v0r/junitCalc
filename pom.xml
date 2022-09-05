@@ -29,7 +29,7 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.junit.version>5.8.1</project.junit.version>
+        <project.junit.version>5.8.2</project.junit.version>
         <maven.compiler.plugin>3.1</maven.compiler.plugin>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
